@@ -6,7 +6,96 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
+<style>
+img{
+    width: 250px;
+    height: 250px;
+}
+.las{
     
+    position: relative;
+    left:60px;
+}
+.las>img{
+    height: 200px;
+}
+.las>p{
+    position: relative;
+    top: -20px;
+}
+.hate{
+    position: relative;
+    left:60px;
+
+}
+.hate>img{
+    width: 300px;
+    height: 200px;
+}
+.hate>p{
+    position: relative;
+    top: -20px;
+}
+.cat>img{
+    width: 200px;
+height: 200px;
+}
+</style>
+<body>
+
+    <h1>CatPhotoApp</h1>
+    <h3>Cat Photos</h3>
+    <p>Click here to view more 
+        <a href="#">cat photos</a>
+    </p>
+    <div class="cat">
+    <img src="https://play-lh.googleusercontent.com/XVHP0sBKrRJYZq_dB1RalwSmx5TcYYRRfYMFO18jgNAnxHAIA1osxM55XHYTb3LpkV8" alt="">
+    </div>
+    <h2>Cat Lists</h2>
+    <h4>Things cats love:</h4>
+    <ul>
+        <li>
+            cat nip
+        </li>
+        <li>laser pointer</li>
+        <li>lasagna</li>
+    </ul>
+    <div class="las">
+    <img src="https://static.toiimg.com/thumb/55369113.cms?imgsize=392784&width=800&height=800" alt="">
+    <p >Cats <i>love</i> lasagna.</p>
+    </div>
+    <h2>Top 3 things cats hate:</h2>
+    <ol>
+        <li>flea treatment</li>
+        <li>thunder</li>
+        <li>other cats</li>
+    </ol>
+    <div class="hate">
+        <img src="https://c0.wallpaperflare.com/preview/126/30/480/animals-cats-cute-feline.jpg" alt="">
+        <p>Cats hate other cats.</p>
+    </div>
+   <div>
+    <h2>Cat Form</h2>
+    <fieldset >
+    <legend>
+        Is your cat an indoor or outdoor cat?
+    </legend>
+    
+        <input type="radio" name="" id="">Indoor
+        
+        <input type="radio" name="" id="">outdoor
+    </fieldset>
+    <fieldset >
+        <legend>
+            What's your cat's personality?
+        </legend>
+        <input type="checkbox" name="" id="">Loving
+        <input type="checkbox" name="" id="">Lazy
+        <input type="checkbox" name="" id="">Energetic
+        </fieldset>
+        <input type="text" placeholder="cat photo URL">
+        <BUtton>Submit</BUtton>
+   </div>
+
 </body>
 </html>
