@@ -1,1 +1,8 @@
 /* start your css here */
+body{
+    padding-left: 400px;
+    padding-right: 450px;
+}
+.tri{
+    padding-left: 8px;
+}
