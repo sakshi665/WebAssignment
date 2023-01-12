@@ -1,7 +1,29 @@
 /* start your css here */
-body{
+.bdy{
     border: 1px solid black;
     width: 500px;
     height: 500px;
     margin-left: 400px;
+}
+
+.header{
+    background-color: black;
+    color:white;
+    width: 800px;
+    height: 40px;
+    padding: 10px;
+    margin: 20px;
+}
+.myvoot{
+    color: white;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+a{
+    color: lightslategray;
+    padding: 8px 20px;
+    text-decoration: none;
+}
+
+img{
+    margin-top: 7px;
 }
