@@ -1,1 +1,36 @@
 /* start your css here */
+body{
+    margin: 20px;
+}
+
+.text{
+    margin-top: 20px;
+    font-size: larger;
+}
+.small{
+    margin-top: 10px;
+    font-size: medium;
+}
+button{
+    margin-top: 50px;
+    text-align: center;
+    padding: 20px;
+    width: 300px;
+    height: 60px;
+    border-radius: 20px;
+    background-color:#0096FF;
+    border:none;
+    color: white;
+    font-style: oblique;
+    font-size: large;
+}
+
+.footer{
+    margin-top: 10px;
+    font-size: medium;
+    margin-left: 80px;
+    border: 1px solid black;
+}
+.ig{
+    margin-top: 10px;
+}
