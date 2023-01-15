@@ -1,1 +1,56 @@
 /* start your styling here  */
+.outer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+}
+.f{
+      width: 25%;
+  height: 500px;
+    border-radius: 20px 0px 0px 20px;
+    background-color: rgb(210, 139, 7);
+    color: white;
+}
+.s{
+      width: 25%;
+  height: 500px;
+    background-color: rgb(18, 113, 113);
+    color: white;
+}
+.t{
+      width: 25%;
+  height: 500px;
+    background-color: rgb(3, 71, 55);
+    color: white;
+    border-radius: 0px 20px 20px 0px;
+}
+h1{
+   margin: 50px 0px 30px 30px;
+    
+}
+div>p{
+ margin: 50px 10px 30px 30px;
+}
+button{
+    border: none;
+    width: 150px;
+    margin: 50px 0px 30px 30px;
+    padding: 20px;
+    color: rgb(210, 139, 7);
+    background-color: white;
+    border-radius: 30px;
+}
+.dot {
+  margin: 30px 0px 30px 30px;
+  height: 60px;
+  width: 60px;
+  background-color: gray;
+  border-radius: 50%;
+  display: inline-block;
+}
+i{
+  font-size:48px;
+  color:white;
+}
