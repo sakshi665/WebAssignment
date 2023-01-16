@@ -1,1 +1,51 @@
 /* start your styling here  */
+.small-grid{
+    border:3px solid black;
+    height: 60px;
+    width: 90px;
+    background-color: lightpink;
+    position: relative;
+}
+/* .small-grid-5{
+    border:3px solid black;
+    height: 60.5px;
+    width: 90px;
+    background-color: lightpink;
+    position: relative;
+} */
+
+.big-grid{
+    border:3px solid black;
+    height: 126px;
+    width: 320px;
+    background-color: #c45b87;
+}
+.medium-grid{
+    border:3px solid black;
+    height: 60px;
+    width: 186px;
+    background-color: skyblue;
+}
+.bottom-grid{
+    border:3px solid black;
+    height: 127px;
+    width: 225px; 
+    background-color: #c45b87;
+}
+.middle-grid,.bottom-grid,.big-grid,.small-grid,.medium-grid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: white; */
+    /* border: none; */
+}
+.ramb{
+ left: 10px;
+ width: 3px;
+ height: 3px;
+ transform: rotate(45deg);
+ -webkit-transform: rotate(45deg);
+ background-color: black;
+ border: 5px solid white;
+
+}
